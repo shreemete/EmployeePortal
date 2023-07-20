@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding-left: 20px;
+    z-index: 10;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0px 5px rgb(225, 225, 225); */
+}
+
+h3 {
+    color: #1D5B79;
+}
+
+.container {
+    position: relative;
+    top: 100px;
+    /* background-color: ; */
+}
+
+.emp-add {
+    padding: 50px 30px 10px;
+    margin: 20px;
+}
+
+.form-text {
+    color: red !important;
+    /* display: none; */
+}
+
+.btn-add {
+    background-color: #1D5B79 !important;
+    color: white !important;
+}
+
+.btn-view {
+    background-color: #1D5B79 !important;
+    color: white !important;
+}
+
+.btn-edit {
+    background-color: #2E8A99 !important;
+    color: white !important;
+}
+
+.btn-delete {
+    background-color: #B31312 !important;
+    color: white !important;
+}
+
+.emp-table>table>thead {
+    color: #1D5B79;
+}
+
+#pop-up-update,
+#pop-up-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background-color: #1d5a794e;
+}
+
+/* #pop-up-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background-color: #1d5a794e;
+
+} */
+
+.view {
+    width: 350px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.bg {
+    width: 100%;
+    height: 150px;
+    background-color: #1D5B79;
+}
+
+.image {
+    border: 2px solid rgba(44, 58, 87, 0.356);
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+#details {
+    color: white;
+}
+
+
+
+/* .bgImg {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+} */
